@@ -19,3 +19,4 @@ else:
 # case _:
 print ("Invalid operation.")
 # Display the result
+print (f"The result is [result].")
