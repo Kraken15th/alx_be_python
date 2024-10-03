@@ -9,6 +9,7 @@ def display_menu():
      while True:
         display_menu()
         choice = input("Enter your choice: ")
+         choice == float
 if input == "1":
    # Prompt for and add an item
    item = input("Enter item name: ")
