@@ -1,6 +1,3 @@
-Here's the match_case_calculator.py script that performs calculations based on user input using a match-case statement:
-
-Python
 def main():
   """
   Prompts the user for numbers and an operation, performs the calculation using match-case, and displays the result.
