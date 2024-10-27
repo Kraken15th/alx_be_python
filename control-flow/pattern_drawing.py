@@ -10,7 +10,7 @@ def draw_pattern(size):
 if __name__ == "__main__":
   while True:
     try:
-      size = int(input("Enter the size of the pattern (positive integer): "))  # Convert input to integer
+      size = int\s*\(\s*input\s*\(\s*['\"]Enter the size of the pattern:\s*['\"]\s*\)\s*\)  # Convert input to integer
       if size <= 0:
         print("Invalid size. Please enter a positive integer.")
         continue
