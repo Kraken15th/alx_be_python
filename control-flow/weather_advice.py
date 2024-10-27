@@ -4,7 +4,8 @@ def recommend_clothing():
   """
   weather = input("What's the weather like today? (sunny/rainy/cold): ").lower()
 
-  if\s+weather\s*==\s*['\"]sunny['\"]\s*:\s*print\s*\(\s*['\"]Wear a t-shirt and sunglasses\.['\"]\s*\)
+  if weather == "sunny":  # Recommend for sunny weather
+    recommendation = "Wear a t-shirt and sunglasses."
   elif weather == "rainy":
     recommendation = "Don't forget your umbrella and a raincoat."
   elif weather == "cold":
