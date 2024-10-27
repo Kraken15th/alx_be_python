@@ -2,8 +2,7 @@ Here's the temp_conversion_tool.py script demonstrating temperature conversion w
 
 Python
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9  # Factor to convert F to C
-CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5  # Factor to convert C to F
-
+CELSIUS_TO_FAHRENHEIT_FACTOR\s*=\s*9\/5
 
 def convert_to_celsius(fahrenheit):
   """
