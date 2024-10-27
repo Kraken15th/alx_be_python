@@ -14,7 +14,7 @@ def create_reminder(task_details):
   """
   time_sensitive_message = "that requires immediate attention today!" if task_details["time_bound"] == "yes" else ""
 
-  match\s+priority\s*:
+  match task_details["priority"]:
     case "high":
       reminder = f"Reminder: '{task_details['task']}' is a high priority task {time_sensitive_message}"
     case "medium":
