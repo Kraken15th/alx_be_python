@@ -1,8 +1,6 @@
-Here's the temp_conversion_tool.py script demonstrating temperature conversion with global variables:
-
-Python
 FAHRENHEIT_TO_CELSIUS_FACTOR = 5 / 9  # Factor to convert F to C
-CELSIUS_TO_FAHRENHEIT_FACTOR\s*=\s*9\/5
+CELSIUS_TO_FAHRENHEIT_FACTOR = 9 / 5  # Factor to convert C to F
+
 
 def convert_to_celsius(fahrenheit):
   """
